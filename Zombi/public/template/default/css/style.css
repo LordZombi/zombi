@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('//www.mozilla.org/img/fonts/OpenSans-Regular-webfont.eot');
+    src: url('//www.mozilla.org/img/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//www.mozilla.org/img/fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('//www.mozilla.org/img/fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('//www.mozilla.org/img/fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('//www.mozilla.org/img/fonts/OpenSans-Semibold-webfont.eot');
+    src: url('//www.mozilla.org/img/fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//www.mozilla.org/img/fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('//www.mozilla.org/img/fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('//www.mozilla.org/img/fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('//www.mozilla.org/img/fonts/OpenSans-Light-webfont.eot');
+    src: url('//www.mozilla.org/img/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//www.mozilla.org/img/fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('//www.mozilla.org/img/fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('//www.mozilla.org/img/fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background: url("../img/pattern.png") #cccccc;
+	font-family: 'Open Sans Light',sans-serif;
+	font-size: 0.9em;
+	color: #555;
+}
+
+h1,h2,h3 {
+	padding: 0px 10px;
+	font-family: 'Open Sans Light',sans-serif;
+    font-weight: normal;
+}
+p {
+	padding: 0px 10px;
+	margin: 0px;
+}
+
+.info li {
+	list-style-type: square;
+}
+
+.clr {
+	clear: both;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.error {
+	margin: 15px;
+	color: #cc0000;
+}
+/************* HEADER *************/
+.header_wrapper {
+	height: 130px;
+	background: url(../img/header_bgr.png) repeat-x;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.header_main {
+	width: 932px;
+	height: 100px;
+	padding: 0px 30px;
+	margin: 0px auto;
+}
+
+.header_logo img {
+	width: 73px;
+	height: 27px;
+	margin-top: 40px;
+}
+
+#wrapper {
+	width: 100%;
+	display: table;
+}
+
+/************* LEFTMENU *************/
+#left_menu {
+	position: fixed;
+	top: 130px;
+	left: 0px;
+	width: 35px;
+	height: 190px;
+	padding: 10px;
+	padding-bottom: 0px;
+	background: url(../img/transparent.png);
+}
+
+.left_icon {
+	margin-bottom: 10px;
+}
+
+#top {
+	width: 35px;
+	height: 35px;
+	background: url(images/top.png) #ff0000;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+/************* BOXES *************/
+#boxes {
+	width: 870px;
+	margin: 0px auto;
+}
+
+.box {
+	width: 250px;
+	height: 200px;
+	background: url(../img/transparent.png) #fff;
+	box-shadow: 2px 2px 2px #aaa;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+
+.box a.link {
+	position: relative;
+	top: 20px;
+	font-size: 0.8em;
+	text-align: right;
+	display: block;
+}
+
+.box a#single_image:hover {
+	border-bottom: 1px dotted #252525;
+}
+
+.boxRight {
+	width: 772px;
+	float: right;
+}
+
+.boxRight div {
+
+}
+
+/************* INFO *************/
+#main_wrapper {
+	width: 100%;
+	background: url(../img/pattern_black.png);
+	border-top: 5px solid #000;
+	box-shadow: 3px 3px 4px #888, inset 0px 3px 3px #000;
+	margin: 30px auto;
+	color: #fff;
+}
+
+#main {
+	width: 992px;
+	margin: 8px auto;
+}
+
+.text_left {
+	float: left;
+	text-align: justify;
+	width: 474px;
+	padding: 0px 10px;
+	border-right: 2px solid #f3f3f3;
+}
+
+.text_right {
+	width: 474px;
+	padding: 0px 10px;
+	float: right;
+}
+
+.text_small {
+	font-size: 0.8em;
+	color: #555;
+}
+
+table td {
+	vertical-align: top;
+	padding-left: 15px;
+}
+
+.input:hover {
+	background: url(../img/transparent2.png);
+	min-height: 30px;
+	border: none;
+	color: white;
+	cursor: text;
+}
+
+.button {
+	text-align: center;
+	width: 118px;
+	height: 38px;
+	background: url(../img/button.png);
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+
+.button:hover {
+	text-align: center;
+	width: 118px;
+	height: 38px;
+	background: url(../img/button_hover.png);
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+
+/************* FOOTER *************/
+footer {
+	width: 992px;
+	height: 47px;
+	background: url("../img/logo_black.png") no-repeat center 20px;
+	margin: 40px auto;
+	clear: both;
+	border-top: 2px solid #ddd;
+}
+
+/************* SUBPAGES *************/
+.bio {
+	width: 990px;
+	height: 1200px;
+	margin: 50px auto;
+}
+
+.miny {
+	width: 990px;
+	height: 990px;
+	margin: 50px auto;
+}
+
+.stav img {
+	vertical-align: middle;
+}
+
+.stav {
+	float: right;
+	font-size: 1.3em;
+}
+
+/************* SMS *************/
+#sms {
+	width: 445px;
+	margin: 50px auto;
+}
+
+#sms textarea {
+	width: 400px;
+	height: 150px;
+	color: #888;
+	border: 1px solid #ccc;
+	background: #eee;
+	padding: 5px;
+	margin: auto;
+}
+
+#sms hr {
+	color: #eee;
+	border-bottom: 1px solid #ccc;
+}
