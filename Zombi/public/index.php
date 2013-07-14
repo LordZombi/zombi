@@ -17,7 +17,7 @@ if (file_exists('./configs/login.php') ) require'./configs/login.php'; // modul 
 // ak je zvolena stranka/podstranka taka ktora neexistuje tak prejdeme o uroven vyssie z WEB/LIST/ACT1 na WEB/LIST/ a podobne...
 if ( file_exists('./sections/export/export_'.$_GET['list'].'.php') )
 {
-  // vola sa url, krora bude pre aplikaciu: pdf, xls a podobne, cize sa nenaèíta template...
+  // vola sa url, krora bude pre aplikaciu: pdf, xls a podobne, cize sa nenaï¿½ï¿½ta template...
 }
 elseif ( $_GET['list']=='terminy' and isset($_GET['act1']) )
 {
@@ -42,7 +42,7 @@ elseif (file_exists('./sections/data/data_'.$_GET['list'].'.php') ) require'./se
 
 // nacitanie template pre web
 if (file_exists('./sections/export/export_'.$_GET['list'].'.php') ) require'./sections/export/export_'.$_GET['list'].'.php'; // template pre aplikacie: generovanie pdf, xls a podobne...
-elseif (file_exists('./template/'.$_PAGE['template_id'].'/template.php') ) require'./template/'.$_PAGE['template_id'].'/template.php'; // temlate: výsup HTML
+elseif (file_exists('./template/'.$_PAGE['template_id'].'/template.php') ) require'./template/'.$_PAGE['template_id'].'/template.php'; // temlate: vï¿½sup HTML
 else echo'ERROR: TEMPLATE FILE MISSING...';
 
 ?>
